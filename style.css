@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+/* HEADER */
+.header {
+    border: 1px solid black;
+    grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header_above {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+    /* HEADER-above */
+.header_above_1 {
+    display: grid;
+    grid-template-columns: 50px 700px;
+}
+
+.search_icon {
+    border: 1px solid black;
+    grid-column: 1;
+}
+
+.search_bar {
+    grid-column: 2;
+}
+
+.header_above_2 {
+    display: grid;
+    grid-template-columns: 50px 50px 200px;
+}
+
+.bell_button {
+    border: 1px solid black;
+    grid-column: 1;
+}
+
+.header_logo_above {
+    border: 1px solid black;
+    grid-column: 2;
+}
+
+.name_above {
+    border: 1px solid black;
+    grid-column: 3;
+}
+    
+    /* HEADER-below */
+.header_below {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 100px 700px 500px;
+}
+
+.header_logo_below {
+    border: 1px solid black;
+    grid-column: 1;
+}
+
+.header_greetings, .name_below {
+    border: 1px solid black;
+    grid-column: 2;
+}
+
+.header_menu {
+    border: 1px solid black;
+    grid-column: 3;
+}
+
+.header_menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* SIDEBAR */
+.sidebar {
+    border: 1px solid black;
+    grid-column: 1;
+    grid-row: 1 / -1;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.sidebar_logo {
+    border: 1px solid black;
+    grid-row: 1;
+}
+
+.sidebar_1 {
+    border: 1px solid black;
+    grid-row: 2;
+}
+
+.sidebar_2 {
+    border: 1px solid black;
+    grid-row: 3;
+}
+
+/* MAIN-CONTENT - cards */
+.main_content {
+    border: 1px solid black;
+    grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+}
+
+.projects_title {
+    grid-row: 1;
+}
+
+.card {
+    border: 1px solid black;
+
+.social {
+    border: 1px solid black;
+}
+
+/* MAIN-CONTENT - social */
+.announcements {
+    border: 1px solid black;
+}
+
+.notifications {
+    border: 1px solid black;
+}
+
+.trending {
+    border: 1px solid black;
+}
+
+.trending_guy {
+    border: 1px solid black;
+}
