@@ -11,48 +11,43 @@
             <div class="header">
                 <div class="header_above">
                     <div class="header_above_1">
-                        <div class="search_icon">*</div>
+                        <button class="search_icon"><img class="magnify" src="svgs/magnify.svg"/></button>
                         <input class="search_bar" />
                     </div>
                     <div class="header_above_2">
-                        <button class="bell_button">Bell</button>
-                        <div class="header_logo_above">###</div>
+                        <button class="bell_button"> <img class="bell_icon" src="svgs/bell-ring-outline.svg"/></button>
+                        <div class="header_logo_above"><img class="profile_image" src="image/lambda.png"/></div>
                         <div class="name_above">Nguyen Tuan Kiet</div>
+                    </div>
                 </div>
 
                 <div class="header_below">
-                    <div class="header_logo_below">###</div>
+                    <div class="header_logo_below"><img class="profile_image" src="image/lambda.png"/></div>
                     <div class="header_greetings">Hi there,</div>
                     <div class="name_below">Nguyen Tuan Kiet (@Augmentedvison)</div>
                     <div class="header_menu">
-                        <ul>
-                            <li>New</li>
-                            <li>Upload</li>
-                            <li>Share</li>
-                        </ul>
+                        <button class="menu_button">New</button>
+                        <button class="menu_button">Upload</button>
+                        <button class="menu_button">Share</button>
                     </div>
                 </div>
             </div>
 
             <div class="sidebar">
-                <div class="sidebar_logo">Dashboard</div>
+                <div class="sidebar_logo"><img  class="dashboard_logo" src="svgs/view-dashboard.svg"/>   Dashboard</div>
                     <div class="sidebar_1">
-                        <ul>
-                            <li>Home</li>
-                            <li>Profile</li>
-                            <li>Messages</li>
-                            <li>History</li>
-                            <li>Tasks</li>
-                            <li>Communities</li>
-                        </ul>
+                        <button class="sidebar_button"><img class="icon" src="svgs/home.svg" />Home</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/card-account-details-outline.svg"/>Profile</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/message-reply.svg"/>Messages</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/clock-time-four.svg" />History</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/calendar-check-outline.svg"/>Tasks</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/account-group.svg"/>Communities</button>
                     </div>
 
                     <div class="sidebar_2">
-                        <ul>
-                            <li>Setting</li>
-                            <li>Support</li>
-                            <li>Privacy</li>
-                        </ul>
+                        <button class="sidebar_button"><img class="icon" src="svgs/cog.svg"/>Setting</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/face-agent.svg"/>Support</button>
+                        <button class="sidebar_button"><img class="icon" src="svgs/lock.svg"/>Privacy</button>
                     </div>
             </div>
 
@@ -77,16 +72,17 @@
                     </div>
                     <div class="card">
                         <p class="title">Ad Blocker</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officiis nam voluptatum quo officia! Assumenda consequuntur illum omnis, necessitatibus aliquam nemo adipisci ea nisi culpa blanditiis laborum quaerat rerum deleniti!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officiis nam voluptatum quo officia!</p>
                     </div>
                     <div class="card">
                         <p class="title">Money Maker</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo at odio tempora veritatis culpa aperiam magnam. Sed, quod sint quis earum reiciendis natus exercitationem aliquid fugit ea at cum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo at odio tempora veritatis culpa aperiam magnam.</p>
                     </div>
                 </div>
 
                 <div class="social">
-                    <div class="announcements">Announcements</div>
+                    <div class="announcements_title">Announcements</div>
+                    <div class="Announcements">
                         <div class="notifications">
                             <div class="notifications_title">Site Maintenance</div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum et minima debitis obcaecati delectus quia, in quidem ipsam error reiciendis fugit explicabo maxime placeat, amet molestias iure. Illum, doloribus.</p>
@@ -99,24 +95,46 @@
                             <div class="notifications_title">Updated Privacy Policy</div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum et minima debitis obcaecati delectus quia, in quidem ipsam error reiciendis fugit explicabo maxime placeat, amet molestias iure. Illum, doloribus.</p>
                         </div>
-
+                    </div>
                     <div class="trending"> Trending
                         <div class="trending_guy">
-                            <div class="trending_guy_pic"></div>
-                            <div class="trending_guy_name"></div>\
-                            <div class="trending_guy_title"></div>
+                            <div class="trending_guy_pic">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="50" fill="black" />
+                                </svg>
+                            </div>
+                            <div class="trending_guy_name">@Gordon Freeman</div>
+                            <div class="trending_guy_title">Particle Accelerator</div>
                         </div>
 
                         <div class="trending_guy">
-                            <div class="trending_guy_pic"></div>
-                            <div class="trending_guy_name"></div>\
-                            <div class="trending_guy_title"></div>
+                            <div class="trending_guy_pic">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="50" fill="black" />
+                                </svg>
+                            </div>
+                            <div class="trending_guy_name">@Issac Kleiner</div>
+                            <div class="trending_guy_title">Anti-mass Spectrometer</div>
                         </div>
 
                         <div class="trending_guy">
-                            <div class="trending_guy_pic"></div>
-                            <div class="trending_guy_name"></div>\
-                            <div class="trending_guy_title"></div>
+                            <div class="trending_guy_pic">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="50" fill="black" />
+                                </svg>
+                            </div>
+                            <div class="trending_guy_name">@Eli Vance</div>
+                            <div class="trending_guy_title">Gravity Gun</div>
+                        </div>
+
+                        <div class="trending_guy">
+                            <div class="trending_guy_pic">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="50" fill="black" />
+                                </svg>
+                            </div>
+                            <div class="trending_guy_name">@Russell</div>
+                            <div class="trending_guy_title">Gravity Gloves</div>
                         </div>
                     </div>
                         
